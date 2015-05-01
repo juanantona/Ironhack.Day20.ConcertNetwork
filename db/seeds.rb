@@ -13,6 +13,6 @@ cities = ["Madrid", "London", "New York", "Manchester", "Los Angeles", "Dublin"]
 
 i=0
 for i in 0..20
-  Concert.new({band:, bands.sample, venue: venues.sample, city: cities.sample, date: rand(20).week.ago, price: 100}).save
+  Concert.new({band: bands.sample, venue: venues.sample, city: cities.sample, date: rand(20).week.ago, price: 100}).save
 end 
 
