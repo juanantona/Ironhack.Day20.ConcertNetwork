@@ -15,7 +15,9 @@
  * @import "bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_gradients.scss";
  */
  @import "bootstrap-sprockets";
- @import "bootstrap-sass-3.3.4/_gradients.scss";
+ @import "bootstrap-sass-3.3.4/_gradients.scss"; /*he modificado el path
+ para poder eliminar todos los archivos que me daban probelmas en el despliegue
+ con heroku*/
  @import "bootswatchv3.3.4+1";
  @import "_variables.scss";
  @import "_bootswatch.scss";
