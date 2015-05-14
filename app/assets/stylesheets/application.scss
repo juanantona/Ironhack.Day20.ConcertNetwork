@@ -12,10 +12,10 @@
  *
  * require_tree .
  *= require_self
- * @import "bootswatchv3.3.4+1"
+ * @import "bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_gradients.scss";
  */
  @import "bootstrap-sprockets";
- @import "bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_gradients.scss";
+ @import "bootstrap-sass-3.3.4/_gradients.scss";
  @import "bootswatchv3.3.4+1";
  @import "_variables.scss";
  @import "_bootswatch.scss";
