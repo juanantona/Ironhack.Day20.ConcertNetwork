@@ -5,19 +5,8 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-
-  <style class="footer">
-    
-    li {  
-  	  float: right;
-      margin-right: 1.5em;
-      margin-bottom: 1.5em;
-    }
-        
-  </style>
-
-
 </head>
+
 <body class="body">
   
   <div class="container">
@@ -26,7 +15,7 @@
 
     <div class="col-lg-8 col-md-7 col-sm-6">
       <h1>MUSIC CONCERT NETWORK</h1>
-      <p class="lead">This is the fucking ultimate music site</p>
+      <p class="lead">The ultimate music site</p>
     </div>
 
     <!-- Blockquotes -->
@@ -46,7 +35,13 @@
 
     </div>
 
+   <!-- ****************************************************************** -->
+
+   <%= flash_message %>
+   
    <%= yield %>
+
+   <!-- ****************************************************************** -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -55,21 +50,20 @@
         <div class="col-lg-12">
           <div class="bs-component">
             <blockquote class="pull-right">
-
-            <ul class="list-unstyled">
-              <li class="pull-left"><a href="#top">Back to top</a></li>
-              <li><a href="http://scriptogr.am/juanantona">Blog</a></li>
-              <li><a href="https://github.com/juanantona/">GitHub</a></li>
-            </ul>
-            
+              <ul class="list-unstyled">
+                <li class="pull-right"><a href="#top">Back to top</a></li>
+              </ul>
             </blockquote>
           </div>
         </div>
       </div>
 
-      <p>Made by Juan Antona</p>
-      <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
-      <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+      Made by Juan Antona<br>
+      <a href="http://scriptogr.am/juanantona">Blog</a><br>
+      <a href="https://github.com/juanantona/">GitHub</a><br>
+      Powered by IronHack<br>
+      Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a><br>
+      Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a><br>
        
     </footer>
 

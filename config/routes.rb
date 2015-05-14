@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get "/concerts" => 'concerts#index', as: :concerts
   get "/concerts/new" => 'concerts#new', as: :new_concert
   post "/concerts" => 'concerts#create'
+
+  get "/concerts/:id" => 'concerts#show', as: :concert
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

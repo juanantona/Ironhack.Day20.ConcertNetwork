@@ -10,8 +10,8 @@
   <tbody>
   <% @concerts.each do |concert| %>
     <tr>
-      <td>1</td>
-      <td><%= concert.band %> </td>
+      <td><%= concert.id %></td>
+      <td><%= concert.band %></td>
       <td><%= concert.city %></td>
       <td><%= concert.date.to_s %></td>
     </tr>
