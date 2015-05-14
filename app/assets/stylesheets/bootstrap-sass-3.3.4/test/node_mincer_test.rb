@@ -16,9 +16,9 @@ class NodeMincerTest < Minitest::Test
     assert_match %r(url\(['"]?/assets/.*eot\?.*['"]?\)), @css
   end
 
-  def test_image_helper
-    assert_match %r(url\(['"]?/assets/apple-touch-icon-144-precomposed.*png['"]?\)), @css
-  end
+  # def test_image_helper
+  #   assert_match %r(url\(['"]?/assets/apple-touch-icon-144-precomposed.*png['"]?\)), @css
+  # end
 
   def setup
     tmp_dir = File.join GEM_PATH, 'tmp/node-mincer'
